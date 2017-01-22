@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/key_name"
+                android:id="@+id/public_name"
+                android:clickable="false" android:textIsSelectable="false" android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:paddingTop="10dp" android:paddingBottom="10dp" android:paddingRight="20dp"
+                android:paddingLeft="20dp" android:textColor="@android:color/holo_blue_light"/>
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#ffffffff" android:layout_marginLeft="0dp"
+                />
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/items_view" android:layout_marginLeft="0dp"
+                />
+    </LinearLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finish_removing"
+            android:id="@+id/btnDone" android:layout_weight="0" android:layout_gravity="center_horizontal|bottom"
+            />
+</LinearLayout>

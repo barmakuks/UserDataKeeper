@@ -1,0 +1,7 @@
+/*.class
+/*.orig
+gen/*
+out/production/*
+.idea/*
+/*~
+

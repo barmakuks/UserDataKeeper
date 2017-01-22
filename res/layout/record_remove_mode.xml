@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/enter_public_name"
+
+            android:id="@+id/public_name" android:paddingLeft="20dp" android:paddingTop="10dp"
+            android:paddingBottom="10dp" android:layout_weight="1"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRemoveRecord" android:layout_weight="0" android:src="@drawable/ic_action_remove_mode"
+            android:layout_gravity="center_vertical|right" android:contentDescription="@string/remove_item"
+            style="@android:style/Holo.Light.ButtonBar"/>
+</LinearLayout>

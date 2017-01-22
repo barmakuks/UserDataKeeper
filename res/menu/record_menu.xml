@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_overflow" android:icon="@drawable/ic_action_overflow" android:title="more" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/add_item" android:title="@string/add_item" android:icon="@drawable/ic_action_add_item"/>
+            <item android:id="@+id/remove_items" android:title="@string/remove_items" android:icon="@drawable/ic_action_remove_item"/>
+            <item android:id="@+id/save_as_template" android:title="@string/save_as_template" android:icon="@drawable/ic_action_save_as_template"/>
+        </menu>
+    </item>
+</menu>

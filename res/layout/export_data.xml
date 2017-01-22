@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/select_directory"
+            android:id="@+id/textView2" android:textColor="@android:color/holo_green_light"
+            android:layout_marginTop="10dp"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerDirectories"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/enter_file_name"
+            android:id="@+id/textView3" android:textColor="@android:color/holo_green_light"
+            android:layout_marginTop="10dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editFileName" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:inputType="text"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_data"
+            android:id="@+id/checkClearData" android:checked="false"
+            android:textColor="@android:color/holo_green_light" android:visibility="gone"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/password"
+            android:id="@+id/textPassword" android:textColor="@android:color/holo_green_light"
+            android:layout_marginTop="10dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editPassword" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            />
+</LinearLayout>

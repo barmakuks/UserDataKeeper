@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_item">Create item</string>
+    <string name="add_record">Create new entry</string>
+    <string name="add_record_from_template">Create entry from template</string>
+    <string name="app_name">User Data Keeper</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_password">Change password</string>
+    <string name="confirm_password">Confirm new password.</string>
+    <string name="empty">Create Empty</string>
+    <string name="enter_item">Enter Item</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="enter_current_password">Enter current password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="enter_first_password">To protect your data please enter new password.</string>
+    <string name="enter_public_name">Enter Data Caption</string>
+    <string name="enter_public_name_here">Data caption...</string>
+    <string name="enter_template_name">Enter Template Name</string>
+    <string name="export_to_file">Export to file</string>
+    <string name="export">Export data</string>
+    <string name="finish_removing">Exit remove mode</string>
+    <string name="do_import">Import</string>
+    <string name="import_fail">File not imported</string>
+    <string name="import_from_file">Import data from file</string>
+    <string name="import_success">File imported successfully</string>
+    <string name="key_name">Caption</string>
+    <string name="login">Login</string>
+    <string name="ok">Ok</string>
+    <string name="password">Password</string>
+    <string name="password_changed">Password was changed successfully</string>
+    <string name="password_mismatch">"Password does not match the confirm password</string>
+    <string name="password_not_changed">Error! Password was not changed</string>
+    <string name="password_length_message">Password should be more then 5 characters length</string>
+    <string name="remove_item">Remove item</string>
+    <string name="remove_items">Remove items</string>
+    <string name="remove_confirm_format">\'%s\' will be removed.</string>
+    <string name="remove_records">Remove data</string>
+    <string name="save_as_template">Save as template</string>
+    <string name="select_directory">Select directory</string>
+    <string name="select_template">Select Template</string>
+    <string name="setup_password">Setup password</string>
+    <string name="value">Value</string>
+    <string name="clear_data">Remove current data</string>
+</resources>
